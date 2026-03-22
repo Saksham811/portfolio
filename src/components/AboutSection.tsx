@@ -5,8 +5,8 @@ export default function AboutSection() {
   const highlights = [
     {
       icon: <BrainCircuit className="text-accent" size={24} />,
-      title: "AI/ML Focus",
-      desc: "Passionate about NLP, LLMs, and building intelligent recommendation systems.",
+      title: "Cybersecurity Focus",
+      desc: "Passionate about penetration testing, network security, and secure coding.",
     },
     {
       icon: <Code2 className="text-accent" size={24} />,
@@ -29,10 +29,10 @@ export default function AboutSection() {
           </h2>
           <div className="space-y-6 text-white/70 text-lg leading-relaxed">
             <p>
-              I am a 3rd-year Computer Science Engineering student with an insatiable curiosity for how things work under the hood. My journey blends the analytical depth of Artificial Intelligence with the creative freedom of Full Stack Development.
+              I am a 3rd-year Computer Science Engineering student with an insatiable curiosity for how things work under the hood. My journey blends the analytical depth of Cybersecurity with the creative freedom of Full Stack Development.
             </p>
             <p>
-              Whether I&apos;m fine-tuning an LLM to explain complex codebases or meticulously crafting a pixel-perfect, highly animated UI, I focus on delivering impactful tech that scales seamlessly.
+              Whether I'm identifying vulnerabilities in complex systems or meticulously crafting a pixel-perfect, highly animated UI, I focus on delivering impactful tech that scales seamlessly.
             </p>
             <p>
               I thrive on problem-solving and continually push the boundaries of what is possible by building robust, real-world projects.

@@ -5,7 +5,7 @@ export default function SkillsSection() {
     { category: "Languages", items: ["Java", "Python", "JavaScript", "TypeScript", "C++"] },
     { category: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "HTML5"] },
     { category: "Backend", items: ["Node.js", "Express", "REST APIs", "GraphQL", "PostgreSQL"] },
-    { category: "AI / ML", items: ["Machine Learning", "NLP", "LLMs", "TensorFlow", "Scikit-Learn"] },
+    { category: "Cybersecurity", items: ["Penetration Testing", "Network Security", "Cryptography", "Ethical Hacking", "OWASP"] },
   ];
 
   return (

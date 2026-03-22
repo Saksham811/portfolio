@@ -15,14 +15,14 @@ export default function CertificationsSection() {
       link: null, // Will be updated when the user provides the link
     },
     {
-      title: "SQL (Advanced)",
-      issuer: "HackerRank",
-      issuerShort: "HackerRank",
-      description: "Demonstrated proficiency in advanced SQL concepts including complex joins, window functions, query optimization, subqueries, and database design principles.",
-      badge: "🟢",
-      color: "from-green-500/20 to-emerald-500/5",
-      borderHover: "hover:border-green-500/40",
-      accentColor: "text-green-400",
+      title: "Advent of Cyber 2025",
+      issuer: "TryHackMe",
+      issuerShort: "TryHackMe",
+      description: "Completed hands-on practical challenges covering various aspects of cybersecurity including defense, offense, web exploitation, and incident response operations.",
+      badge: "🛡️",
+      color: "from-red-500/20 to-rose-500/5",
+      borderHover: "hover:border-red-500/40",
+      accentColor: "text-red-400",
       link: null,
     },
     {
@@ -47,7 +47,7 @@ export default function CertificationsSection() {
             Certifications<span className="text-accent">.</span>
           </h2>
           <p className="text-white/50 text-lg max-w-xl mx-auto">
-            Credentials that validate my expertise across cloud, data, and software engineering.
+            Credentials that validate my expertise across cloud, cybersecurity, and software engineering.
           </p>
         </div>
 

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
+import { Shield } from "lucide-react";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -42,8 +43,9 @@ export default function Navbar() {
       }`}
     >
       <div className="w-full max-w-6xl flex items-center justify-between">
-        <Link href="#home" className="text-xl font-extrabold tracking-tighter text-white hover:text-accent transition-colors">
-          AP<span className="text-accent">.</span>
+        <Link href="#home" className="flex items-center gap-2 text-2xl font-extrabold tracking-tighter text-white hover:text-accent transition-colors group">
+          <Shield className="text-accent group-hover:scale-110 transition-transform duration-300" size={26} />
+          <span>S<span className="text-accent">.</span></span>
         </Link>
         <div className="hidden md:flex gap-8">
           {navLinks.map((link) => (

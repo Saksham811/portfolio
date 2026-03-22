@@ -31,7 +31,7 @@ export default function HeroSection() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight mb-6 text-white leading-tight"
           >
-            Akshit Prashar
+            Saksham
           </motion.h1>
 
           <motion.h3
@@ -40,7 +40,7 @@ export default function HeroSection() {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="text-2xl md:text-4xl text-white/80 font-medium mb-8"
           >
-            AI/ML Engineer & Full Stack Developer
+            Cybersecurity Analyst & Full Stack Developer
           </motion.h3>
 
           <motion.p
@@ -49,7 +49,7 @@ export default function HeroSection() {
             transition={{ delay: 0.5, duration: 0.7 }}
             className="text-lg md:text-xl text-white/60 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            Building intelligent, scalable systems. I specialize in training models, engineering robust backends, and crafting stunning frontend experiences.
+            Building secure, scalable systems. I specialize in securing networks, engineering robust backends, and crafting stunning frontend experiences.
           </motion.p>
 
           <motion.div
@@ -68,7 +68,7 @@ export default function HeroSection() {
               </motion.button>
             </Link>
 
-            <a href="https://drive.google.com/file/d/1j9LR-Uy21W-hyIdHE43r-9etH3-Wem1_/view" download="Akshit_Prashar_CV.pdf">
+            <a href="https://drive.google.com/file/d/1vCf3u69dsMe9cEcHmuJp9mnBtjiLLvtT/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

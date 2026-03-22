@@ -9,39 +9,40 @@ export default function ProjectsSection() {
       title: "GitHub Repo Explainer",
       description: "An LLM-powered application that takes a GitHub repository URL, analyzes the codebase using OpenRouter API, and generates structured explanations for developers.",
       tech: ["Next.js", "TypeScript", "LLMs", "Tailwind CSS"],
-      github: "https://github.com/AkshitPrashar14/Github-Repo-Explainer",
-    },
-    {
-      title: "RecoSphere – Recommendation System",
-      description: "A robust ML-based recommendation engine capable of providing highly accurate suggestions based on user behavior and collaborative filtering algorithms.",
-      tech: ["Python", "Scikit-Learn", "FastAPI", "Pandas"],
-      github: "https://github.com/AkshitPrashar14/RecoSphere---Recommendation-system",
-      live: "https://reco-sphere-recommendation-system.vercel.app/",
-    },
-    {
-      title: "SmartPark – Parking System",
-      description: "A smart parking management system using Machine Learning and Computer Vision (CNN + OpenCV) to detect parking slot occupancy with a PyQt desktop interface.",
-      tech: ["Python", "CNN", "OpenCV", "PyQt"],
-      github: "https://github.com/AkshitPrashar14/SmartPark-Parking-System",
+      github: "https://github.com/Saksham811/Github-Repo-Explainer",
     },
     {
       title: "LeetCode Progress Analyzer",
       description: "A developer dashboard that fetches LeetCode user data via GraphQL, visualizes problem-solving trends with Chart.js, and provides AI-powered study suggestions.",
       tech: ["Next.js", "TypeScript", "GraphQL", "Chart.js"],
-      github: "https://github.com/AkshitPrashar14/Leetcode-Progress-Analyzer",
+      github: "https://github.com/Saksham811/Leetcode-Progress-Analyzer",
       live: "https://leetcode-progress-analyzer.vercel.app/",
     },
     {
-      title: "Gov FAQ – NLP Chatbot",
-      description: "An NLP-powered chatbot that answers government-related frequently asked questions, making public information more accessible through natural language queries.",
-      tech: ["Python", "NLP", "TF-IDF", "Flask"],
-      github: "https://github.com/AkshitPrashar14/Government-related-Frequently-asked-Questions-using-NLP",
+      title: "File Integrity Checker",
+      description: "File Integrity Checker using SHA 256",
+      tech: ["Python", "Flask", "CSS"],
+      github: "https://github.com/Saksham811/File-Integrity-Checker",
+      live: "https://file-integrity-checker-puce.vercel.app",
     },
     {
-      title: "Learning Management System",
-      description: "A full-featured Learning Management System that enables course creation, student enrollment, progress tracking, and assignment management for educators.",
-      tech: ["Java", "MySQL", "Spring Boot", "REST API"],
-      github: "https://github.com/AkshitPrashar14/Learning-Management-System",
+      title: "Hotel-Booking",
+      description: "A project for a hotel booking system proving all details with unique feature of 360 degrees of room view along with property.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Saksham811/Hotel-Booking",
+    },
+    {
+      title: "library-management-sys",
+      description: "📚 A library management system implemented using concepts of OOP in JAVA, GUI designed using Java Swing and MS SQL as database.",
+      tech: ["Java", "Java Swing", "MS SQL"],
+      github: "https://github.com/Saksham811/library-management-sys",
+    },
+    {
+      title: "Password Strength Analyzer",
+      description: "A password strength analyzer.",
+      tech: ["CSS", "HTML", "JavaScript"],
+      github: "https://github.com/Saksham811/password-strength-analyzer",
+      live: "https://password-strength-analyzerlive-gp80ah8yo.vercel.app/",
     },
   ];
 
@@ -101,7 +102,7 @@ export default function ProjectsSection() {
         {/* View All on GitHub CTA */}
         <div className="flex justify-center mt-14">
           <a
-            href="https://github.com/AkshitPrashar14"
+            href="https://github.com/Saksham811"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-3 px-8 py-4 rounded-full border border-white/20 text-white/80 hover:text-white hover:border-accent/60 hover:bg-accent/10 transition-all duration-300 font-medium"
