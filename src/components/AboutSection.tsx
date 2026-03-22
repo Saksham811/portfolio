@@ -32,7 +32,7 @@ export default function AboutSection() {
               I am a 3rd-year Computer Science Engineering student with an insatiable curiosity for how things work under the hood. My journey blends the analytical depth of Cybersecurity with the creative freedom of Full Stack Development.
             </p>
             <p>
-              Whether I'm identifying vulnerabilities in complex systems or meticulously crafting a pixel-perfect, highly animated UI, I focus on delivering impactful tech that scales seamlessly.
+              Whether I&apos;m identifying vulnerabilities in complex systems or meticulously crafting a pixel-perfect, highly animated UI, I focus on delivering impactful tech that scales seamlessly.
             </p>
             <p>
               I thrive on problem-solving and continually push the boundaries of what is possible by building robust, real-world projects.
