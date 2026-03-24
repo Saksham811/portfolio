@@ -90,20 +90,19 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
           className="flex-1 flex justify-center lg:justify-end"
         >
-          <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-[400px] lg:h-[400px]">
+          <div className="relative w-64 h-[320px] md:w-80 md:h-[400px] lg:w-[400px] lg:h-[500px]">
             {/* Outer glowing rings */}
-            <div className="absolute inset-0 rounded-full border border-white/10 animate-pulse" />
-            <div className="absolute inset-4 rounded-full border border-accent/20" />
-            <div className="absolute inset-8 rounded-full border border-white/5" />
+            <div className="absolute inset-0 rounded-[2rem] border border-white/10 animate-pulse" />
+            <div className="absolute inset-4 rounded-[1.8rem] border border-accent/20" />
+            <div className="absolute inset-8 rounded-[1.6rem] border border-white/5" />
             
             {/* Image Container */}
-            <div className="absolute inset-6 rounded-full overflow-hidden bg-cardBg border-4 border-accent/30 shadow-[0_0_50px_rgba(var(--accent),0.15)] flex items-center justify-center">
-              {/* Replace src with actual profile picture. It will fallback to an icon or alt text if not found, but we recommend user places 'profile.jpg' in public/ */}
+            <div className="absolute inset-6 rounded-[1.5rem] overflow-hidden bg-cardBg border-4 border-accent/30 shadow-[0_0_50px_rgba(var(--accent),0.15)] flex items-center justify-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img 
                 src="/profile.jpg" 
                 alt="Profile" 
-                className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=Saksham&size=512&background=random&color=fff`; 
                 }}
